@@ -1,9 +1,13 @@
+import { MainRoutes } from "./Router/MainRoutes"
+
 function App() {
 
   return (
-    <>
-      Hola
-    </>
+    <div className="layout">
+    
+      <MainRoutes />
+
+    </div>
   )
 }
 
