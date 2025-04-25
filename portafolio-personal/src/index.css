@@ -112,6 +112,45 @@
 
 }
 
+.home h1{
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400px;
+  font-size: 30px;
+  margin-bottom: 0px;
+
+}
+
+.home h2{
+
+  color: lightslategrey;
+
+}
+
+.home a{
+
+  background-color: blueviolet;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  transition: all 300ms;
+
+}
+
+.home a:hover{
+
+  background-color: #213547;
+
+}
+
+.home strong{
+
+  color: darkslateblue;
+
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
