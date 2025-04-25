@@ -4,7 +4,7 @@ export const Curriculum = () => {
   return (
     <div className='page'>
 
-      <h1>Curriculum</h1>
+      <h1 className='heading'>Curriculum</h1>
       <h2>Proyectos</h2>
       <ul>
 

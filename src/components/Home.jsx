@@ -18,7 +18,7 @@ export const Home = () => {
       </h2>
 
       <section className='header-projects'>
-        <h2>Estos son parte de los proyectos que he desarrollado.</h2>
+        <h2 className='heading'>Estos son parte de los proyectos que he desarrollado.</h2>
         <div className='projects'>
 
         </div>
