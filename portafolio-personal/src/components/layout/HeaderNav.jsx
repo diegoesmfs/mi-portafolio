@@ -7,10 +7,11 @@ export const HeaderNav = () => {
 
         <div className='logo'>
 
-            <span>Dm</span>
+            <h3>Diego Morales</h3>
 
         </div>
-        <h3>Diego Morales</h3>
+
+        <span className='personal'>DM</span>
 
         <nav>
             <ul>
