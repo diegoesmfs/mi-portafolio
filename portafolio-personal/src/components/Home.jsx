@@ -17,9 +17,9 @@ export const Home = () => {
         intuitividad a las interfacez que desarrollo <Link to="/contact">Contacta conmigo!!!</Link>.
       </h2>
 
-      <section className='header-proyects'>
+      <section className='header-projects'>
         <h2>Estos son parte de los proyectos que he desarrollado.</h2>
-        <div className='proyects'>
+        <div className='projects'>
 
         </div>
       </section>
