@@ -13,7 +13,7 @@ export const HeaderNav = () => {
 
         <span className='personal'>DM</span>
 
-        <nav>
+        <nav className='nav-bar'>
             <ul>
                 <li>
                     <NavLink to="/home" className={({isActive}) => isActive ? "active" : ""}>Home</NavLink>
