@@ -205,3 +205,14 @@ input[type="submit"]:hover{
     background-color: #ffffff;
   }
 }
+@media (max-width: 1085px){
+
+  .content, .header, nav{
+
+    flex-flow: column wrap;
+    justify-content: center;
+
+  }
+ 
+
+}
