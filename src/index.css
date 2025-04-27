@@ -205,7 +205,7 @@ input[type="submit"]:hover{
     background-color: #ffffff;
   }
 }
-@media (max-width: 1065px){
+@media screen and (max-width: 600px){
 
   .header, .logo h3, .personal span{
 
