@@ -127,7 +127,7 @@
 
 }
 
-.home a{
+.home .contact-btn{
 
   background-color: blueviolet;
   text-decoration: none;
@@ -139,7 +139,7 @@
 
 }
 
-.home a:hover{
+.home .contact-btn:hover{
 
   background-color: #213547;
 
@@ -327,6 +327,7 @@ input[type="submit"]:hover{
 
   .nav-bar li {
 
+    margin-top: auto;
     font-size: 16px;
     margin-left: 2px;
     margin-right: 2px;

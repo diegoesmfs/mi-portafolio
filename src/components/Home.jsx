@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import { ProjectsList } from './ProjectsList';
 
 export const Home = () => {
   return (
@@ -14,14 +15,14 @@ export const Home = () => {
 
       <h2>
         Mis trabajos y desarrollos, son dinamicos, dando una mayor visibilidad y
-        intuitividad a las interfacez que desarrollo <Link to="/contact">Contacta conmigo!!!</Link>.
+        intuitividad a las interfacez que desarrollo <Link className='contact-btn' to="/contact">Contacta conmigo!!!</Link>.
       </h2>
 
       <section className='header-projects'>
         <h2 className='heading'>Estos son parte de los proyectos que he desarrollado.</h2>
-        <div className='projects'>
 
-        </div>
+          <ProjectsList limit="2"/>
+
       </section>
 
     </div>
