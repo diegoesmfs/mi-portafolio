@@ -35,7 +35,7 @@ export const projects = [
         'id': '4',
         'name': 'Reproductor de Musica',
         'url': 'https://github.com/diegoesmfs/spotify-personal',
-        'technologies': 'HTML, CSS, JavaScript, Booststrap',
+        'technologies': 'HTML, CSS, JavaScript, Bootstrap',
         'category': 'Desarrollo web basico',
         'description': 'Imitacion basica de un reproductor de musica en ambiente web.'
 
@@ -45,7 +45,7 @@ export const projects = [
         'id': '5',
         'name': 'Pokedex',
         'url': 'https://github.com/diegoesmfs/pokedexJs',
-        'technologies': 'HTML, CSS, JavaScript, Booststrap',
+        'technologies': 'HTML, CSS, JavaScript, Bootstrap',
         'category': 'Desarrollo web basico',
         'description': 'Mi pagina para presentar mis desarrollos y proyectos ejecutado y por ejecutar.'
 
