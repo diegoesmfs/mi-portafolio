@@ -1,33 +1,39 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const Contact = () => {
   return (
     <div className='page'>
 
-    <h1 className='heading'>Contacto</h1>
+      <h1 className='heading'>Contacto</h1>
 
-      <form className='contact' action="mailto:diegoalef1311moralef@gmail.com">
+      <div className='contact-container'>
 
-        <input type="text" placeholder='Nombre' />
-        <input type="text" placeholder='Apellido' />
-        <input type="text" placeholder='Email' />
-        <textarea placeholder='Motivo de contacto'></textarea>
-        <input type="submit" value="Enviar" />
+        <form className='contact' action="mailto:diegoalef1311moralef@gmail.com">
 
-      </form>
+          <input type="text" placeholder='Nombre' />
+          <input type="text" placeholder='Apellido' />
+          <input type="text" placeholder='Email' />
+          <textarea placeholder='Motivo de contacto'></textarea>
+          <input type="submit" value="Enviar" />
 
-      <aside className='social-media'>
+        </form>
 
-        <div className='social-logo'>
+        <aside className='social-media'>
 
-          <Link to='/linkedin'>LinkedIn</Link>
-          <Link to='/Github'>GitHub</Link>
+          <h2>Mis redes sociales</h2>
 
-        </div>
+          <div className='social-logo'>
 
-      </aside>
+            <Link className='social-btn' to='https://www.linkedin.com/in/diego-morales-16723133b/'><img src="/bucket/linkedin-logo.jpg" alt="Logo de linkedIn" /></Link>
+            <Link className='social-btn' to='https://github.com/diegoesmfs'><img src="/bucket/github-logo.jpg" alt="Logo de GitHub" /></Link>
 
-  </div>
+          </div>
+
+        </aside>
+
+      </div>
+
+    </div>
   )
 }
