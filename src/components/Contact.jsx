@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import {emailJs} from 'emailjs';
 
 export const Contact = () => {
+
+  const [formData, setFormData] = useState({
+
+    name: '',
+    surname: '',
+    email: '',
+    motive: ''
+
+  });
+
+  const sendMail = (e) =>{
+
+    e.preventDefault();
+    emailJs.send('service_wnegdhs', '')
+
+  }
+
   return (
     <div className='page'>
 
@@ -9,12 +27,12 @@ export const Contact = () => {
 
       <div className='contact-container'>
 
-        <form className='contact' action="mailto:diegoalef1311moralef@gmail.com">
+        <form className='contact' onSubmit={ e => sendMail(e)}>
 
-          <input type="text" placeholder='Nombre' />
-          <input type="text" placeholder='Apellido' />
-          <input type="text" placeholder='Email' />
-          <textarea placeholder='Motivo de contacto'></textarea>
+          <input type="text" name='name' placeholder='Nombre' />
+          <input type="text" name='surname' placeholder='Apellido' />
+          <input type="text" name='email' placeholder='Email' />
+          <textarea name='motive' placeholder='Motivo de contacto'></textarea>
           <input type="submit" value="Enviar" />
 
         </form>

@@ -325,7 +325,7 @@ input[type="submit"]:hover{
   align-items: center;
   gap: 20px;
   box-sizing: border-box;
-  border: 1px solid #242424;
+  border: 1px solid gray;
   border-radius: 15px;
   padding: 25px;
   box-shadow: 0px 5px 15px gray; 
@@ -335,7 +335,7 @@ input[type="submit"]:hover{
 .contact{
 
   box-sizing: border-box;
-  border: 1px solid #242424;
+  border: 1px solid gray;
   border-radius: 15px;
   padding: 25px;
   box-shadow: 0px 5px 15px gray; 
