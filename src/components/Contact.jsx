@@ -21,13 +21,13 @@ export const Contact = () => {
   }
 */
   return (
-    <div className='page' mailto='diegoalef1311moralef@gmail.com'>
+    <div className='page'>
 
       <h1 className='heading'>Contacto</h1>
 
       <div className='contact-container'>
 
-        <form className='contact' >
+        <form className='contact' mailto='diegoalef1311moralef@gmail.com' >
 
           <input type="text" name='name' placeholder='Nombre' />
           <input type="text" name='surname' placeholder='Apellido' />
