@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {emailJs} from 'emailjs';
+
 
 export const Contact = () => {
 
@@ -13,21 +13,21 @@ export const Contact = () => {
 
   });
 
-  const sendMail = (e) =>{
+  /*const sendMail = (e) =>{
 
     e.preventDefault();
-    emailJs.send('service_wnegdhs', '')
+    emailjs.send('service_wnegdhs', '')
 
   }
-
+*/
   return (
-    <div className='page'>
+    <div className='page' mailto='diegoalef1311moralef@gmail.com'>
 
       <h1 className='heading'>Contacto</h1>
 
       <div className='contact-container'>
 
-        <form className='contact' onSubmit={ e => sendMail(e)}>
+        <form className='contact' >
 
           <input type="text" name='name' placeholder='Nombre' />
           <input type="text" name='surname' placeholder='Apellido' />
